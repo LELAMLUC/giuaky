@@ -1,4 +1,4 @@
-package com.example.customadaptergridview;
+package com.example.customadaptergridview.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.example.customadaptergridview.R;
+import com.example.customadaptergridview.model.LastProduct;
 
 import java.util.List;
 

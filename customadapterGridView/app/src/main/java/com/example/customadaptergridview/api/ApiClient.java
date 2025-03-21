@@ -1,13 +1,11 @@
-package com.example.customadaptergridview;
+package com.example.customadaptergridview.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetrofitClient {
+public class ApiClient {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://10.0.3.2:8080/week3/";
-
-
+    private static final String BASE_URL = "http://192.168.125.144:8080/";
 
     public static Retrofit getClient() {
         if (retrofit == null) {
