@@ -1,4 +1,4 @@
-package com.example.customadaptergridview;
+package com.example.customadaptergridview.model;
 
 public class LastProduct {
     private String name;
